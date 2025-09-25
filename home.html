@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Todo App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="ar">العربية</option>
+    </select>
+
+    <div class="home-container">
+      <button class="logout-btn" id="logout">Logout</button>
+      <h1>Welcome, <span id="username"></span> 👋</h1>
+      <div class="add-task">
+        <input type="text" id="taskInput" placeholder="Enter a new task..." />
+        <button id="addBtn">Add</button>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+    <script src="main.js/lang.js"></script>
+    <script src="main.js/translate.js"></script>
+    <script src="main.js/todo.js"></script>
+  </body>
+</html>
